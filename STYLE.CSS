@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:rgb(157, 150, 133)
+}
+
+.game-container {
+    text-align: center;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #d7b0b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+#reset-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-left: 87px;
+    border-radius: 5px;
+    border: none;
+    background-color: #acd3b2;
+}
+#opponentAi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-left: 80px;
+    border-radius: 5px;
+    border: none;
+    background-color: #acd3b2;
+}
+#opponentHuman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-left: 65px;
+    border-radius: 5px;
+    border: none;
+    background-color: #acd3b2;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
